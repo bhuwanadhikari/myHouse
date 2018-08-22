@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Galindo');
+
+html{
+    margin: 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.Body{
+    width: 100%;
+    height: 768px;
+    margin: 0;
+    background-image: url("../../images/texture-990104.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+}
+
+
+.Offset{
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: 200px;
+}
+
+.Content{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    font-family: "Lato";
+}
+
+.Text{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Galindo";
+}
+
+.Button{
+    display: block;
+    width: 20%;
+    height: 40px;
+    padding: 8px;
+    font-size: larger;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    transition: background-color 1s;
+    margin: 20px auto;
+    font-family: "Lato";
+}
+
+.Button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width: 450px){
+    Body{
+        background-image: none;
+        color: white;
+    }
+
+    .Content {
+        width: 100%;
+        font-family: "Lato";
+    }
+
+    .Text{
+        font-size: 1.5rem;
+    }
+}
+
+/*social media icons */@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #5959AB;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+    border-radius: 10px 0 0 10px;
+}
+.fa-facebook:hover {
+    background-color: #3B5998 ;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+}
+.fa-github:hover {
+    background-color: #333;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+}
+.fa-instagram:hover {
+    background-color: #d6249f;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+    border-radius: 0 10px 10px 0;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-strava {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #5959AB;
+}
+.fa-strava:hover {
+    background-color: #e25714;
+}
+
+
