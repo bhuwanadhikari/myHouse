@@ -1,9 +1,9 @@
 {
   "short_name": "Bhuwan Blog",
-  "name": "Blogs of Bhuwan Adhikari",
+  "name": "Bhuwan Adhikari",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon2.ico",
       "sizes": "96x96 64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
