@@ -308,15 +308,7 @@
       });
 
 
-      if(document.getElementById("section-portfolio")){
-            var $grid = $(".grid").isotope({
-              itemSelector: ".all",
-              percentPosition: true,
-              masonry: {
-                columnWidth: ".all"
-              }
-            })
-      };
+     
 
 
 	};
